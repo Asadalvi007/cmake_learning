@@ -1,0 +1,114 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/MinGW/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        D:/personal_data/ESPIDF COURSE/CMAKE TEST AND TOOLING/Udemy - CMake, Tests and Tooling for CC++ Projects [2022 Edition] 2023-5/cmkae-github/UdemyCmake/2_CMake/03_IntermediateProject/build/CMakeFiles/3.27.6/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/MinGW/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/personal_data/ESPIDF COURSE/CMAKE TEST AND TOOLING/Udemy - CMake, Tests and Tooling for CC++ Projects [2022 Edition] 2023-5/cmkae-github/UdemyCmake/2_CMake/03_IntermediateProject/build/CMakeFiles/3.27.6/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/personal_data/ESPIDF COURSE/CMAKE TEST AND TOOLING/Udemy - CMake, Tests and Tooling for CC++ Projects [2022 Edition] 2023-5/cmkae-github/UdemyCmake/2_CMake/03_IntermediateProject/build/CMakeFiles/CMakeScratch/TryCompile-d5h3l2"
+      binary: "D:/personal_data/ESPIDF COURSE/CMAKE TEST AND TOOLING/Udemy - CMake, Tests and Tooling for CC++ Projects [2022 Edition] 2023-5/cmkae-github/UdemyCmake/2_CMake/03_IntermediateProject/build/CMakeFiles/CMakeScratch/TryCompile-d5h3l2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/personal_data/ESPIDF COURSE/CMAKE TEST AND TOOLING/Udemy - CMake, Tests and Tooling for CC++ Projects [2022 Edition] 2023-5/cmkae-github/UdemyCmake/2_CMake/03_IntermediateProject/build/CMakeFiles/CMakeScratch/TryCompile-d5h3l2'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_81515/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_81515.dir\\build.make CMakeFiles/cmTC_81515.dir/build
+        mingw32-make.exe[1]: Entering directory 'D:/personal_data/ESPIDF COURSE/CMAKE TEST AND TOOLING/Udemy - CMake, Tests and Tooling for CC++ Projects [2022 Edition] 2023-5/cmkae-github/UdemyCmake/2_CMake/03_IntermediateProject/build/CMakeFiles/CMakeScratch/TryCompile-d5h3l2'
+        mingw32-make.exe[1]: CMakeFiles\\cmTC_81515.dir\\build.make: No such file or directory
+        mingw32-make.exe[1]: Leaving directory 'D:/personal_data/ESPIDF COURSE/CMAKE TEST AND TOOLING/Udemy - CMake, Tests and Tooling for CC++ Projects [2022 Edition] 2023-5/cmkae-github/UdemyCmake/2_CMake/03_IntermediateProject/build/CMakeFiles/CMakeScratch/TryCompile-d5h3l2'
+        mingw32-make.exe[1]: *** No rule to make target 'CMakeFiles\\cmTC_81515.dir\\build.make'.  Stop.
+        Makefile:126: recipe for target 'cmTC_81515/fast' failed
+        mingw32-make.exe: *** [cmTC_81515/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: C:/MinGW/bin/gcc.exe"
+    directories:
+      source: "D:/personal_data/ESPIDF COURSE/CMAKE TEST AND TOOLING/Udemy - CMake, Tests and Tooling for CC++ Projects [2022 Edition] 2023-5/cmkae-github/UdemyCmake/2_CMake/03_IntermediateProject/build/CMakeFiles/CMakeScratch/TryCompile-hmcuza"
+      binary: "D:/personal_data/ESPIDF COURSE/CMAKE TEST AND TOOLING/Udemy - CMake, Tests and Tooling for CC++ Projects [2022 Edition] 2023-5/cmkae-github/UdemyCmake/2_CMake/03_IntermediateProject/build/CMakeFiles/CMakeScratch/TryCompile-hmcuza"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/personal_data/ESPIDF COURSE/CMAKE TEST AND TOOLING/Udemy - CMake, Tests and Tooling for CC++ Projects [2022 Edition] 2023-5/cmkae-github/UdemyCmake/2_CMake/03_IntermediateProject/build/CMakeFiles/CMakeScratch/TryCompile-hmcuza'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_e9aa5/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e9aa5.dir\\build.make CMakeFiles/cmTC_e9aa5.dir/build
+        mingw32-make.exe[1]: Entering directory 'D:/personal_data/ESPIDF COURSE/CMAKE TEST AND TOOLING/Udemy - CMake, Tests and Tooling for CC++ Projects [2022 Edition] 2023-5/cmkae-github/UdemyCmake/2_CMake/03_IntermediateProject/build/CMakeFiles/CMakeScratch/TryCompile-hmcuza'
+        mingw32-make.exe[1]: CMakeFiles\\cmTC_e9aa5.dir\\build.make: No such file or directory
+        mingw32-make.exe[1]: Leaving directory 'D:/personal_data/ESPIDF COURSE/CMAKE TEST AND TOOLING/Udemy - CMake, Tests and Tooling for CC++ Projects [2022 Edition] 2023-5/cmkae-github/UdemyCmake/2_CMake/03_IntermediateProject/build/CMakeFiles/CMakeScratch/TryCompile-hmcuza'
+        mingw32-make.exe[1]: *** No rule to make target 'CMakeFiles\\cmTC_e9aa5.dir\\build.make'.  Stop.
+        Makefile:126: recipe for target 'cmTC_e9aa5/fast' failed
+        mingw32-make.exe: *** [cmTC_e9aa5/fast] Error 2
+        
+      exitCode: 2
+...
